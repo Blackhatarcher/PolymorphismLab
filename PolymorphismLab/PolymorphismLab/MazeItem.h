@@ -15,6 +15,7 @@
 class MazeItem {
 public:
 	virtual void render();
+	virtual bool isPermeable();
 };
 
 #endif /* MazeItem_hpp */

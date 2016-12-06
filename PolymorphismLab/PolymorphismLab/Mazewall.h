@@ -19,6 +19,7 @@ private:
 	bool mHorizontal;
 public:
 	MazeWall(bool horz);
+	virtual bool isPermeable();
 	virtual void render();
 };
 

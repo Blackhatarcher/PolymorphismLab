@@ -17,7 +17,10 @@ MazeWall::MazeWall(bool horz)
 {
 	mHorizontal = horz;
 }
-
+bool MazeWall::isPermeable() 
+{
+	return false;
+}
 void MazeWall::render()
 {
 	if (mHorizontal)

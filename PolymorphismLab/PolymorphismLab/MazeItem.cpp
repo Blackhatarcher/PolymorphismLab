@@ -16,3 +16,7 @@ void MazeItem::render()
 {
 	cout << " ";
 }
+bool MazeItem::isPermeable()
+{
+	return true;
+}
